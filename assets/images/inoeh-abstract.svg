@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17171c"/>
+      <stop offset="1" stop-color="#07080c"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".55" numOctaves="3" seed="5" type="fractalNoise"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .12 0"/></filter>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity=".45"/>
+  <g transform="translate(600 400) rotate(-11)" fill="none">
+    <rect x="-320" y="-185" width="640" height="370" rx="14" stroke="#f3f0e8" stroke-opacity=".3" stroke-width="3"/>
+    <rect x="-245" y="-115" width="490" height="230" stroke="#756dff" stroke-opacity=".75" stroke-width="5"/>
+    <path d="M-245-115L245 115M245-115L-245 115" stroke="#f3f0e8" stroke-opacity=".18" stroke-width="2"/>
+    <circle r="86" stroke="#756dff" stroke-width="4"/>
+    <path d="M-86 0h172M0-86v172" stroke="#f3f0e8" stroke-opacity=".35"/>
+  </g>
+  <text x="75" y="710" fill="#f3f0e8" fill-opacity=".84" font-size="82" font-family="Arial, sans-serif" letter-spacing="12">INO EH</text>
+</svg>

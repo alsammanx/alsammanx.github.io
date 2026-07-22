@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#11121a"/>
+      <stop offset="1" stop-color="#08090e"/>
+    </linearGradient>
+    <radialGradient id="r">
+      <stop offset="0" stop-color="#756dff" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#756dff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <circle cx="860" cy="240" r="330" fill="url(#r)"/>
+  <g fill="none" stroke="#f3f0e8" stroke-opacity=".18">
+    <circle cx="700" cy="390" r="245"/>
+    <circle cx="700" cy="390" r="150"/>
+    <path d="M455 390h490M700 145v490"/>
+    <path d="M527 217l346 346M873 217L527 563"/>
+  </g>
+  <g fill="#756dff">
+    <circle cx="700" cy="145" r="9"/>
+    <circle cx="945" cy="390" r="7"/>
+    <circle cx="700" cy="635" r="5"/>
+    <circle cx="455" cy="390" r="3"/>
+  </g>
+  <text x="74" y="690" fill="#f3f0e8" fill-opacity=".8" font-size="100" font-family="Arial, sans-serif" letter-spacing="20">PHI</text>
+</svg>
